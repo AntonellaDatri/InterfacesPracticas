@@ -1,3 +1,5 @@
+package practica1
+
 import org.junit.Assert.*
 import practica1.manejoDeListas.*
 import org.junit.Test
@@ -7,25 +9,25 @@ class UIListTest {
 
     @Test
     fun estaOrdenada() {
-        var list: List<Int> = (1..3).toList()
+        val list: List<Int> = (1..3).toList()
         assertTrue(lista.isSorted(list))
     }
 
     @Test
     fun noEstaOrdenada() {
-        var list: List<Int> = listOf(1, 4, 3)
+        val list: List<Int> = listOf(1, 4, 3)
         assertFalse(lista.isSorted(list))
     }
 
     @Test
     fun debeEstaOrdenadaMayorAMenor() {
-        var list: List<Int> = listOf(1, 4, 3)
+        val list: List<Int> = listOf(1, 4, 3)
         assertTrue(lista.asc(list, false).equals(listOf(4, 3, 1)))
     }
 
     @Test
     fun debeEstaOrdenadaMenorAMayor() {
-        var list: List<Int> = listOf(1, 4, 3)
+        val list: List<Int> = listOf(1, 4, 3)
         assertTrue(lista.asc(list, true).equals(listOf(1, 3, 4)))
 
     }

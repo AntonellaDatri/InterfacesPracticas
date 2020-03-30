@@ -1,3 +1,5 @@
+package practica1
+
 import practica1.manejoDeString.Str
 import org.junit.Assert.*
 import org.junit.Test
@@ -25,7 +27,7 @@ class StrTest{
         assertEquals(str.vowels("holA"), 2)
     }
     @Test
-    fun vocalesÁcidoClorhídrico(){
+    fun vocalesAcidoClorhidrico(){
         //no contempla acentos
         assertEquals(str.vowels("Acido clorhidrico"), 7)
     }
