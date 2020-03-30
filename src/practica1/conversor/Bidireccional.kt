@@ -1,4 +1,4 @@
-package conversor
+package practica1.conversor
 
 class Bidireccional {
     private fun kilometrosAMillas (k : Double) : String{

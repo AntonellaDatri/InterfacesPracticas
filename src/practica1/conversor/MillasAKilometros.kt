@@ -1,5 +1,5 @@
-package conversor
-import conversor.generico.Conversor
+package practica1.conversor
+import practica1.conversor.generico.Conversor
 
 class MillasAKilometros : Conversor() {
     override fun conversor(m: Double): String {

@@ -1,4 +1,4 @@
-package manejoDeString
+package practica1.manejoDeString
 
 import java.awt.event.KeyEvent
 

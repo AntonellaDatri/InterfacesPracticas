@@ -1,7 +1,6 @@
 import org.junit.Assert.*
-import manejoDeListas.*
+import practica1.manejoDeListas.*
 import org.junit.Test
-import java.util.*
 
 class UIListTest {
     val lista: UIList = UIList()

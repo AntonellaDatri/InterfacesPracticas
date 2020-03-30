@@ -1,4 +1,4 @@
-import manejoDeString.Str
+import practica1.manejoDeString.Str
 import org.junit.Assert.*
 import org.junit.Test
 

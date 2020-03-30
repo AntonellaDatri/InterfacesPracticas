@@ -1,15 +1,21 @@
 import org.junit.Assert.*
 import org.junit.Test
-import usuarioRedSocial.*
+import practica1.usuarioRedSocial.Usuario
 import java.time.LocalDate
 
 class UsuarioTest(){
-    val pepa = Usuario("pepa Romero", "pepita",
-        "Pepita@gmail.com", LocalDate.of(1999, 12, 4) )
-    val pepe = Usuario("pepe Aguirre", "pepon",
-        "Pepon@gmail.com", LocalDate.of(2000, 11, 14) )
-    val jose = Usuario("jose Rojas", "jose",
-    "jose@hotmail.com", LocalDate.of(1990, 1, 5) )
+    val pepa = Usuario(
+        "pepa Romero", "pepita",
+        "Pepita@gmail.com", LocalDate.of(1999, 12, 4)
+    )
+    val pepe = Usuario(
+        "pepe Aguirre", "pepon",
+        "Pepon@gmail.com", LocalDate.of(2000, 11, 14)
+    )
+    val jose = Usuario(
+        "jose Rojas", "jose",
+        "jose@hotmail.com", LocalDate.of(1990, 1, 5)
+    )
 
     @Test
     fun edadPepa(){

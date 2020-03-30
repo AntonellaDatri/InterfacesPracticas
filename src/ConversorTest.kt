@@ -1,7 +1,7 @@
 import org.junit.Assert.*
 import org.junit.Test
-import conversor.*
-import conversor.generico.Generico
+import practica1.conversor.*
+import practica1.conversor.generico.Generico
 
 class ConversorTest{
     val millasAKilometros = MillasAKilometros()

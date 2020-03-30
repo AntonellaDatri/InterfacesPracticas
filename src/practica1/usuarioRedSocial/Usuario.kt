@@ -1,6 +1,5 @@
-package usuarioRedSocial
+package practica1.usuarioRedSocial
 import java.time.LocalDate
-import java.util.*
 import kotlin.collections.ArrayList
 
 
